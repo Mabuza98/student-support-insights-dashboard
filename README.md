@@ -1,268 +1,258 @@
-AI-Enabled Student Support Insights Dashboard
-Project Overview
+# 🚀 AI-Enabled Student Support Insights Dashboard
 
-The AI-Enabled Student Support Insights Dashboard is a full-stack web application developed to help programme teams identify learner support needs, monitor participation risks, and improve decision-making through data analytics and AI-supported recommendations.
+## 🎓 Transforming Learner Support Through Data & AI
 
-The system allows users to capture learner information, analyse learner risks, generate dashboard insights, visualise trends, and export reports for operational use.
+[INSERT HERO BANNER PNG HERE]
+*Suggested image:* Dashboard home page screenshot or project banner.
 
-This project was developed as part of the Future Innovation Lab AI Internship Programme and demonstrates practical application of software development, data analytics, business process improvement, and responsible AI principles.
+---
 
-Project Objectives
+## 🌍 Project Overview
 
-The primary objectives of the project were to:
+The AI-Enabled Student Support Insights Dashboard is a community-driven solution designed to help programme teams identify learner support needs, monitor participation risks, and make informed decisions using data analytics and AI-supported recommendations.
 
-Collect learner information in a structured format.
-Analyse learner support needs and risk indicators.
-Visualise learner data using interactive dashboards.
-Generate AI-supported insights and recommendations.
-Improve learner support planning and operational efficiency.
-Demonstrate ethical and responsible use of learner data.
+🔹 Learner Management
+🔹 Interactive Analytics
+🔹 AI Insights & Recommendations
+🔹 Reporting & Exports
+🔹 Responsible AI & Privacy
 
-Features:
+Some learner information may be sensitive, therefore the system incorporates ethical AI principles, privacy considerations, and human oversight mechanisms.
 
-Learner Management
-Add learner records manually.
-Upload learner data using CSV files.
-View learner information.
-Edit learner records.
-Delete learner records.
+---
 
-Dashboard Analytics:
+## 🎯 Project Objectives
 
-Learner summary statistics.
-Risk distribution analysis.
-Learners by province analysis.
-Device access analysis.
-Data quality monitoring.
+✅ Collect learner information in a structured format
 
-AI Features:
+✅ Analyse learner support needs and risk indicators
 
-AI-generated learner insights.
-AI recommendations.
-AI support advice.
-Risk explanations.
+✅ Visualise learner trends and participation risks
 
-Reporting:
+✅ Generate AI-supported insights and recommendations
 
-PDF report generation.
-CSV export functionality.
-Dashboard filtering.
-Ethics & Privacy
-Ethics and Privacy page.
-Responsible AI considerations.
-Human oversight guidance.
-Privacy notice.
+✅ Improve programme planning and operational efficiency
 
-Technology Stack:
+✅ Demonstrate responsible AI practices
 
-Frontend
-React
-Tailwind CSS
-React Router DOM
-Axios
-Recharts
-React Hot Toast
+---
 
-Backend:
+## 👥 Learner Management
 
-ASP.NET Core Web API (.NET 8)
-Entity Framework Core
+The system allows programme staff to:
 
-Database:
+➕ Add Learners
 
-SQL Server
+✏️ Edit Learners
 
-Additional Libraries:
+🗑️ Delete Learners
 
-PapaParse
-jsPDF
+📂 Upload CSV Files
 
-System Architecture:
+🔍 Search Learner Records
 
-The application follows a three-layer architecture:
+📋 View Learner Information
 
-User
+---
 
-↓
+## 📊 Dashboard Analytics
 
-React Frontend
+The dashboard provides real-time visibility into learner support needs.
 
-↓
+### Key Metrics
 
-ASP.NET Core Web API
+📈 Total Learners
 
-↓
+⚠️ High Risk Learners
 
-SQL Server Database
+🟡 Medium Risk Learners
 
-↓
+🟢 Low Risk Learners
 
-Analytics Engine
+📍 Province Distribution
 
-↓
+💻 Device Access Analysis
 
-Charts, Insights, Recommendations & Reports
+🔎 Data Quality Monitoring
 
-The frontend communicates with the backend through REST API endpoints, while SQL Server stores learner records and analytics data.
+---
 
-Installation:
+## 📈 Risk Distribution Analysis
 
-Frontend Setup
+The system analyses learner information and categorises learners into risk levels.
 
-Navigate to the frontend folder:
+🟢 Low Risk
 
-cd frontend
+🟡 Medium Risk
 
-Install dependencies:
+🔴 High Risk
 
-npm install
+This helps programme staff prioritise interventions and support activities.
 
-Run the application:
+---
 
-npm run dev
+## 📍 Province Analysis
 
-Frontend runs on:
+The dashboard visualises learner distribution across provinces, allowing teams to identify geographical trends and support requirements.
 
-http://localhost:5173
+---
 
+## 💻 Device Access Analysis
 
-Backend Setup:
+Understanding device availability helps programme teams identify potential digital inclusion barriers.
 
-Navigate to the backend folder:
+Examples:
 
-cd backend
+💻 Laptop Access
 
+📱 Phone Only Access
 
-Restore packages:
+👨‍👩‍👧 Shared Device Access
 
-dotnet restore
+---
 
+## 🤖 AI-Powered Insights
 
-Run the API:
+The dashboard automatically generates:
 
-dotnet run
+🧠 Learner Insights
 
-Backend runs on:
+💡 Recommendations
 
-http://localhost:5007/swagger
+⚡ Support Advice
 
+📊 Risk Explanations
 
+Example:
 
+> "A high number of learners rely solely on mobile devices and have limited internet access. Additional data support and mobile-friendly learning resources are recommended."
 
-Apply migrations:
+---
 
-dotnet ef database update
+## 📄 Reporting Features
 
-API Endpoints:
+The system supports:
 
-Learners
+📄 PDF Report Generation
 
-Get All Learners
+📥 CSV Export
 
-GET /api/learners
+📊 Dashboard Summaries
 
-Get Learner By ID
+📋 Programme Reporting
 
-GET /api/learners/{id}
+This enables programme staff to share findings and support decision-making.
 
-Add Learner
+---
 
-POST /api/learners
+## 🔒 Ethics & Privacy
 
-Update Learner
+The project promotes responsible AI by:
 
-PUT /api/learners/{id}
+🛡️ Protecting learner privacy
 
-Delete Learner
+⚖️ Encouraging transparency
 
-DELETE /api/learners/{id}
+👥 Maintaining human oversight
 
+🔐 Using synthetic learner data
 
-Dashboard Analytics
+🚫 Avoiding harmful automation
 
-The dashboard provides:
+AI recommendations are designed to support human decision-making rather than replace it.
 
-Learner counts
-Risk distribution
-Province analysis
-Device access analysis
-Data quality monitoring
-AI insights
-AI recommendations
-AI support advice
+---
 
-Dashboard data can be filtered using:
+## 🛠️ Technology Stack
 
-Learner ID
-Province
-Risk Level
-Validation Rules
+### Frontend
 
-The system validates:
+⚛️ React
 
-Required fields
-Confidence score ranges (1–5)
-CSV uploads
-Missing values
-Duplicate learner checks
+🎨 Tailwind CSS
 
-These validations improve data quality and reporting accuracy.
+🌐 React Router DOM
 
-Testing
+📡 Axios
 
-The following functionality was tested:
+📊 Recharts
 
-Add learner
-Edit learner
-Delete learner
-CSV upload
-Dashboard filters
-Search functionality
-PDF export
-Validation handling
+### Backend
 
-All core functionality passed testing successfully.
+🔷 ASP.NET Core Web API (.NET 8)
 
-Future Improvements
+🗃️ Entity Framework Core
 
-Potential future enhancements include:
+### Database
 
-User authentication and authorisation
-Role-based access control
-Real AI model integration
-Predictive learner analytics
-Email notifications
-Cloud deployment
-Mobile application support
-Advanced reporting features
-Real-time dashboard updates
-Ethics and Responsible AI
+🗄️ SQL Server
 
-The project uses synthetic learner data to minimise privacy risks.
+### Additional Libraries
 
-The system was designed to:
+📂 PapaParse
 
-Promote responsible AI usage.
-Maintain transparency.
-Support human decision-making.
-Avoid harmful automation.
-Protect learner privacy.
+📄 jsPDF
 
-AI-generated recommendations should always be reviewed by programme staff before action is taken.
+---
 
-Repository Structure
-frontend/
-backend/
-report/
-evidence/
-dataset/
-README.md
-Author
+## 🏗️ System Architecture
+
+[INSERT ARCHITECTURE DIAGRAM PNG HERE]
+
+👤 User
+
+⬇️
+
+⚛️ React Frontend
+
+⬇️
+
+🔷 ASP.NET Core Web API
+
+⬇️
+
+🗄️ SQL Server Database
+
+⬇️
+
+📊 Analytics Engine
+
+⬇️
+
+🤖 Insights & Recommendations
+
+⬇️
+
+📄 Reports & Visualisations
+
+---
+
+## 🚀 Future Improvements
+
+🔐 User Authentication
+
+👥 Role-Based Access Control
+
+🤖 Advanced AI Integration
+
+📈 Predictive Analytics
+
+☁️ Cloud Deployment
+
+📧 Email Notifications
+
+📱 Mobile Application
+
+⚡ Real-Time Dashboards
+
+---
+
+## 👨‍💻 Author
 
 Justice Mabuza
-
-AI-Enabled Student Support Insights Dashboard
 
 Future Innovation Lab – AI Internship Programme
 
 2026
+
+### 🎓 Data → 📊 Analytics → 🤖 AI Insights → 💡 Recommendations → 🚀 Better Learner Support
