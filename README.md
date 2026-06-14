@@ -2,7 +2,13 @@
 
 ## 🎓 Transforming Learner Support Through Data & AI
 
-01-dashboard-overview.png
+## Dashboard Overview
+
+![Dashboard Overview](report-images/01-dashboard-overview.png)
+
+## Learner's Table
+
+![Learner's Table](report-images/03-learner-table.png)
 
 
 ---
@@ -197,7 +203,9 @@ AI recommendations are designed to support human decision-making rather than rep
 
 ## 🏗️ System Architecture
 
-system architecture.png
+## System Architecture
+
+![Architecture](diagrams/system architecture.png)
 
 👤 User
 
