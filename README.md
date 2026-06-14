@@ -2,8 +2,8 @@
 
 ## 🎓 Transforming Learner Support Through Data & AI
 
-[INSERT HERO BANNER PNG HERE]
-*Suggested image:* Dashboard home page screenshot or project banner.
+01-dashboard-overview.png
+
 
 ---
 
