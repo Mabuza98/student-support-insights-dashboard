@@ -8,7 +8,7 @@
 
 ## Learner's Table
 
-![Learner's Table](report-images/03-learner-table.png.png)
+![Learner's Table](evidence/report-images/03-learner-table.png)
 
 
 ---
@@ -205,7 +205,8 @@ AI recommendations are designed to support human decision-making rather than rep
 
 ## System Architecture
 
-![Architecture](diagrams/system architecture.png)
+![Architecture](diagrams/system architecture.png.png)
+
 
 👤 User
 
