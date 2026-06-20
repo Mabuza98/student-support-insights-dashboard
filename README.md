@@ -4,11 +4,11 @@
 
 ## Dashboard Overview
 
-![Dashboard Overview](report-images/01-dashboard-overview.png)
+![Dashboard Overview](report-images/01-dashboard-overview.png.png)
 
 ## Learner's Table
 
-![Learner's Table](report-images/03-learner-table.png)
+![Learner's Table](report-images/03-learner-table.png.png)
 
 
 ---
