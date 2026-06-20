@@ -2,15 +2,6 @@
 
 ## 🎓 Transforming Learner Support Through Data & AI
 
-## Dashboard Overview
-
-![Dashboard Overview](evidence/report-images/01-dashboard-overview.png.png)
-
-## Learner's Table
-
-![Learner's Table](evidence/report-images/03-learner-table.png)
-
-
 ---
 
 ## 🌍 Project Overview
@@ -42,6 +33,16 @@ Some learner information may be sensitive, therefore the system incorporates eth
 ✅ Demonstrate responsible AI practices
 
 ---
+
+## Dashboard Overview
+
+![Dashboard Overview](evidence/report-images/01-dashboard-overview.png.png)
+
+## Learner's Table
+
+![Learner's Table](evidence/report-images/03-learner-table.png)
+
+
 
 ## 👥 Learner Management
 
@@ -205,7 +206,7 @@ AI recommendations are designed to support human decision-making rather than rep
 
 ## System Architecture
 
-![Architecture](diagrams/system architecture.png.png)
+![Architecture](diagrams/system architecture.jpeg)
 
 
 👤 User
