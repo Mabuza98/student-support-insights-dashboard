@@ -4,7 +4,7 @@
 
 ## Dashboard Overview
 
-![Dashboard Overview](report-images/01-dashboard-overview.png.png)
+![Dashboard Overview](evidence/report-images/01-dashboard-overview.png.png)
 
 ## Learner's Table
 
