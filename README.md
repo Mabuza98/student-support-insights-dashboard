@@ -206,7 +206,7 @@ AI recommendations are designed to support human decision-making rather than rep
 
 ## System Architecture
 
-![Architecture](evidence/diagrams/system architecture.png.jpeg)
+![System Architecture](evidence/diagrams/system architecture.png.jpeg)
 
 
 👤 User
